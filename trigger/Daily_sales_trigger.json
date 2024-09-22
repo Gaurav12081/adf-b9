@@ -1,0 +1,25 @@
+{
+	"name": "Daily_sales_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_copy_file_adls",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2024-09-16T22:46:00",
+				"endTime": "2024-10-06T23:49:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "adf-dev-b9-gaurav",
+	"properties": {
+		"globalParameters": {
+			"TargetContainer": {
+				"type": "string",
+				"value": "sourcecontainergen2"
+			},
+			"filepathe": {
+				"type": "string",
+				"value": "target"
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b9fae058-55b5-431c-a820-51c56f7045d0",
+		"tenantId": "10111061-22ff-46ac-961e-eef75d50abd0"
+	}
+}

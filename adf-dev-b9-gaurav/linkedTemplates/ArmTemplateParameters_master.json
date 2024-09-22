@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-dev-b9-gaurav"
+		},
+		"ls_Target_Database_password": {
+			"value": ""
+		},
+		"ls_source_adls_gen2_accountKey": {
+			"value": ""
+		},
+		"ls_source_blob_connectionString": {
+			"value": ""
+		},
+		"ls_source_sql_server_connectionString": {
+			"value": ""
+		},
+		"ls_Target_Database_properties_typeProperties_server": {
+			"value": "azuresqladb9.database.windows.net"
+		},
+		"ls_Target_Database_properties_typeProperties_database": {
+			"value": "targetadf"
+		},
+		"ls_Target_Database_properties_typeProperties_userName": {
+			"value": "gauravkosare"
+		},
+		"ls_restapi_properties_typeProperties_url": {
+			"value": "https://reqres.in/api/users"
+		},
+		"ls_source_adls_gen2_properties_typeProperties_url": {
+			"value": "https://adbgauravadlsgen2.dfs.core.windows.net"
+		},
+		"TumblingWindowTrigger_properties_pipeline_parameters_StartDate": {
+			"value": "@trigger().outputs.windowStartTime"
+		},
+		"TumblingWindowTrigger_properties_pipeline_parameters_EndDate": {
+			"value": "@trigger().outputs.windowEndTime"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

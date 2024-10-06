@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=True;data source=LAPTOP-0VO3QKGK\\SQLEXPRESS;initial catalog=devsep;user id=sa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOGI1MjAwNC01NDVmLTQ0MjktYTgxNy1lMGI1MzNkZTc4MzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;data source=LAPTOP-0VO3QKGK\\SQLEXPRESS;initial catalog=devsep;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNzY1MTI5Zi1mZGQ2LTRiMmItYWZkZS0zNjQzYzBlNjVkMzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "IR-OnPrem",
